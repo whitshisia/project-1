@@ -3,7 +3,7 @@ let reservations = [];
 
 // Function to fetch reservations
 const fetchReservations = () => {
-    fetch('reservations.json')
+    fetch('db.json')
         .then(response => response.json())
         .then(data => {
             reservations = data;
