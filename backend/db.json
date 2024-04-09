@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Room 1",
+        "image": "./images/room1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Room 2",
+        "image": "./images/room2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Room 3",
+        "image": "./images/room3.jpg"
+    }
+]
