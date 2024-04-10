@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel SURREAL</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <!-- Include custom styles -->
-    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="bg-cover bg-center h-screen" 
 style="background-image: url('./images/lobby.jpg');">
+<!-- navbar -->
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <!-- <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" /> -->
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">HOTEL SURREAL</span>
       </a>
       <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -30,10 +30,10 @@ style="background-image: url('./images/lobby.jpg');">
             <a href="./pages/home.html" class="block py-2 px-3 text-gray-900 rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white md:hover:text-red-700 md:dark:text-red-500" aria-current="page">Home</a>
           </li>
           <li>
-            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+            <a href="./pages/about.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
           </li>
           <li>
-            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+            <a href="./pages/services.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
           </li>
           <li>
             <a href="./pages/contacts.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
@@ -42,6 +42,7 @@ style="background-image: url('./images/lobby.jpg');">
       </div>
     </div>
 </nav>
+<!-- reservation button -->
     <div class="container mx-auto">
         <h1 class="text-3xl font-bold text-center mt-8">WELCOME TO HOTEL SURREAL</h1>
         <div class="flex justify-center mt-8">
@@ -98,7 +99,46 @@ style="background-image: url('./images/lobby.jpg');">
             <!-- Reservation list will be displayed here -->
         </div>
     </div>
+    <!-- hotel posts -->
+    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Available Rooms</h5>
+
+    <section class="flex justify-between items-center my-3">
+        <div class="flex gap-4">
+            <div class="block mx-auto w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <img src="./images/room1.jpg" class="object-fill h-48 w-96" alt="VIP ROOM" />
+                <div class="flex justify-between mt-4">
+                    <div>
+                        <h3 class="text-xl font-bold">VIP Room</h3>
+                        <p class="font-normal text-gray-700 dark:text-gray-400">This room is available for booking. $10,000 per night.</p>
+                    </div>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Book Now</button>
+                </div>
+            </div>
+                <div class="flex gap-4">
+                    <div class="block mx-auto w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <img src="./images/room2.jpg" class="object-scale-down h-48 w-96" alt="VIP ROOM" />
+                        <div class="flex justify-between mt-4">
+                            <div>
+                                <h3 class="text-xl font-bold">BUSSINESS Room</h3>
+                                <p class="font-normal text-gray-700 dark:text-gray-400">This room is available for booking. $1,000 per night.</p>
+                            </div>
+                            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Book Now</button>
+                        </div>
+                    </div>
+                        <div class="flex gap-4">
+                            <div class="block mx-auto w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                                <img src="./images/room3.jpg" class="object-scale-down h-48 w-96" alt="VIP ROOM" />
+                                <div class="flex justify-between mt-4">
+                                    <div>
+                                        <h3 class="text-xl font-bold">ECONOMY Room</h3>
+                                        <p class="font-normal text-gray-700 dark:text-gray-400">This room is available for booking. $100 per night.</p>
+                                    </div>
+                                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Book Now</button>
+                                </div>
+                            </div>
+                </section>
     <hr>
+    <!-- footer -->
     <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
         <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="/" class="hover:underline">HOTEL SURREAL™</a>. All Rights Reserved.
@@ -121,8 +161,10 @@ style="background-image: url('./images/lobby.jpg');">
       </footer>
       
 
-    <!-- Include index.js -->
+    <!--  index.js -->
     <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
 </body>
 
 </html>

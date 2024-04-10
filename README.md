@@ -1,31 +1,36 @@
-# Flatdango
+# WSbooking
+#### The app is a simple hotel booking project project, 10/04/2024
+#### **By Whitney Shisia**
+## Project Description
+    Its a simple hotel booking app
+## Setup/Installation Requirements
+    - Download zip in the code section of github to your desired folder
+    - Extract the files
+    - Open the folder with vs code.
+    - Then run "json-server --watch database.json" to run our server.
+    - The run your index.html by either using the "GO LIVE" extension or by double clicking of the index.html
+    - And your application is running.
+       
+## Live link
+Deployed Frontend can be accessed here [Blog](https://nextblog-k-koech.vercel.app/)  
+Deployed Backend can be accessed here [Blog](https://blog-javascript-7c8x.onrender.com)  
 
-Flatiron Movie Theater is open for business! You will be building out an
-application, Flatdango, that allows a user to purchase movie tickets from the
-theater.
 
-## Demo
+## Known Bugs
+    The application images dissapears in heroku and page requires restart to not changes .
+    Otherwise application works perfectly well, no bugs.
 
-Use this gif as an example of how the app should work.
+## Technologies used
+    - JS
+    - HTML and CSS
+    - Fontawesome
+    - BOOTSRAP
+    -TAILWIND
 
-![Flatdango App Demo](https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-flatdango/flatdango-demo.gif)
+## Support and contact details
+    - email :: shisiawhitney215@gmail.com
+    - phone :: +254705719325
 
-> To view in VSCode, right click on the README.md file and select "Open Preview".
-
-## Setup
-
-Run this command to get the backend started:
-
-```console
-$ json-server --watch db.json
-```
-Test your server by visiting this route in the browser:
-
-[http://localhost:3000](http://localhost:3000)
-
-Then, open the `index.html` file on your browser to run the application.
-
-Write your code in the `src/index.js` file. The base URL for your API will be
-[http://localhost:3000](http://localhost:3000).
-
-## Core Deliverables
+### License
+*Licenced under the MIT Licence
+Copyright (c) 2024 **Whitney Shisia

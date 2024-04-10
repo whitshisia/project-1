@@ -1,17 +1,25 @@
-[
+{
+  "res": [
     {
-        "id": 1,
-        "name": "Room 1",
-        "image": "./images/room1.jpg"
+      "id": "1",
+      "name": "JOHN KINUTHIA",
+      "date": "18/07/2024",
+      "time": "20;34",
+      "details": "business room"
     },
     {
-        "id": 2,
-        "name": "Room 2",
-        "image": "./images/room2.jpg"
+      "id": "2",
+      "name": "JANE KINUTHIA",
+      "date": "04/08/2024",
+      "time": "20:34",
+      "details": " econnomy room"
     },
     {
-        "id": 3,
-        "name": "Room 3",
-        "image": "./images/room3.jpg"
+      "id": "3",
+      "name": "LAWRENCE KINUTHIA",
+      "date": "O4/09/2024",
+      "time": "20:34",
+      "details": "VIP room"
     }
-]
+  ]
+}
